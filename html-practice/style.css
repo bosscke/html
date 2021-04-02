@@ -1,0 +1,65 @@
+
+body {
+
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+
+header, nav, section, article, aside, footer {
+
+	
+	
+
+}
+
+
+header {
+
+	border: 1px solid black;
+	text-align: center;
+	margin:5px 0;
+
+
+}
+
+nav {
+	border: 1px solid black;
+	text-align: center;
+	margin: 5px 0;
+}
+
+section {
+
+	display: inline;
+	border: 1px solid black;
+	text-align: center;
+	margin: 5px 0;
+	flex-basis: 70%;
+	flex-grow: 0;
+}
+article {
+
+	border: 1px solid black;
+	text-align: center;
+	margin: 5px 0;
+	flex-basis: 70%;
+	flex-grow: 0;
+}
+
+aside {
+	flex-direction: row;
+	border: 1px solid black;
+	text-align: center;
+	margin: 5px 0;
+	height: 150px;
+	
+}
+
+footer {
+
+	border: 1px solid black;
+	text-align: center;
+	margin: 5px 0;
+}

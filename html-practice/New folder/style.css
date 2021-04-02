@@ -1,0 +1,31 @@
+.box {
+
+	display: flex;
+	flex-direction: row;
+	margin: 10px;
+	height: 100px;
+
+}
+
+.tag {
+
+	border: 1px solid black;
+	flex-basis: 100%;
+}
+
+.section {
+
+	flex-basis: 70%;
+}
+
+.article {
+
+	flex-basis: 70%;
+}
+
+.aside {
+
+	flex-basis: 25%;
+}
+
+

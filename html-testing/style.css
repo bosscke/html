@@ -1,0 +1,39 @@
+
+
+
+
+form {
+
+	box-sizing: border-box;
+	width: 400px;
+	border: 2px solid #ccc;
+	padding: 5px;
+	margin: 50px auto;
+
+}
+
+input {
+
+	display: block;
+	margin: 5px 0;
+}
+
+.block {
+
+	display: block;
+	border: 1px solid red;
+	height: 100px;
+	margin: 15px 0;
+}
+
+.inline-block {
+
+	display: inline-block;
+	border: 1px solid red;
+	height: 100px;
+	width: 100px;
+	margin: 15px 0;
+
+
+}
+
