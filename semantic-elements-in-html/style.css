@@ -6,26 +6,33 @@
 
 body {
 
-	border: 1px solid red;
+	background-color: #f2f2f2;
+	border: 1px solid #008ae6;
 	height: 75vh;
 	display: flex;
 	flex-direction: column;
 	font-family: 'Roboto', sans-serif;
-	font-size: 13px;
-	font-weight: 300;
+	font-size: 20px;
+	font-weight: 400;
 	margin:10px;
+	color: #008ae6;
 }
 
 h1 {
 	align-self: center;
+	margin:10px;
+	color: #008ae6;
 }
 
 header, nav, footer {
-
-	border: 1px solid black;
+	display: flex;
+	border: 2px solid #008ae6;
 	margin: 5px;
 	/*display: block;*/
-	text-align: center;
+	/*text-align: center;*/
+	height: 10%;
+	align-items: center;
+	justify-content: center;
 
 }
 
@@ -35,7 +42,7 @@ header, nav, footer {
 	flex-direction: row;
 	margin:5px;
 	flex-shrink: 0;
-	height: 45%;
+	height: 50%;
 	/*border: 1px solid yellow;*/
 
 
@@ -63,7 +70,7 @@ header, nav, footer {
 
 section {
 	display: flex;
-	border: 1px solid black;
+	border: 2px solid #008ae6;
 	margin-bottom: 10px;
 	/*text-align: center;*/
 	align-items: center;
@@ -74,7 +81,7 @@ section {
 article {
 
 	display: flex;
-	border:1px solid black;
+	border: 2px solid #008ae6;
 	/*text-align: center;*/
 	align-items: center;
 	justify-content: center;
@@ -83,7 +90,7 @@ article {
 
 aside {
 	display: flex;
-	border: 1px solid orange;
+	border: 2px solid orange;
 	height: 100%;
 	/*text-align: center;*/
 	align-items: center;
