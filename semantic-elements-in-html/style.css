@@ -7,7 +7,7 @@
 body {
 
 	border: 1px solid red;
-	height: 85vh;
+	height: 75vh;
 	display: flex;
 	flex-direction: column;
 	font-family: 'Roboto', sans-serif;
@@ -16,7 +16,7 @@ body {
 	margin:10px;
 }
 
-h4 {
+h1 {
 	align-self: center;
 }
 
@@ -62,16 +62,22 @@ header, nav, footer {
 }
 
 section {
+	display: flex;
 	border: 1px solid black;
 	margin-bottom: 10px;
-	text-align: center;
+	/*text-align: center;*/
+	align-items: center;
+	justify-content: center;
 	height: 50%;
 }
 
 article {
 
+	display: flex;
 	border:1px solid black;
-	text-align: center;
+	/*text-align: center;*/
+	align-items: center;
+	justify-content: center;
 	height: 50%;
 }
 
@@ -79,7 +85,7 @@ aside {
 	display: flex;
 	border: 1px solid orange;
 	height: 100%;
-	text-align: center;
+	/*text-align: center;*/
 	align-items: center;
 	justify-content: center;
 }
